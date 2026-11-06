@@ -8,12 +8,12 @@ elif idade >= 16 and idade < 18:
     print("Sua idade exige autorização de um responsável para realizar a matrícula")
     autorizacao = input("Você possui autorização? (S/N): ")
 
-    if autorizacao == "N":
+    if autorizacao == "N" or autorizacao == "n":
         print("Matrícula pendente. Retorne com a autorização de um responsável")
-    elif autorizacao == "S":
+    elif autorizacao == "S" or autorizacao == "s":
         print("Autorização confirmada! Apresente seu documento para concluir a matrícula")
     else:
         print("Opção inválida. Por favor, responda com S ou N!!")
-
+        autorizacao = input("Você possui autorização? (S/N): ")
 else:
     print("Idade permitida! Sua matrícula pode ser realizada normalmente")
