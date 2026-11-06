@@ -7,29 +7,28 @@ a metodologia, proposta em aula.
 Por gentileza responda brevemente as questões:
 
 1 - Qual o problema do Cliente?
-resposta:
-
+resposta: verificar se uma pessoa pode se matricular na academia de acordo com sua idade
 
 
 2 - Quais infomações o sistema precisa receber?
-resposta:
+resposta: a idade da pessoa e se possui autorização de um responsável, caso necessário
 
 
 
 3 - Quais decisões precisam ser tomadas?
-resposta:
+resposta: verificar a idade e decidir se a matrícula está liberada, pendente ou não autorizada
 
 
 4 - Quais repetições serão necessárias?
-resposta:
+resposta: nenhuma, pois o código só precisa fazer as verificações uma vez
 
 
 5 - Como o sistema deverá funcionar do inicio ao fim?
-resposta:
+resposta: pedir a idade, verificar em qual faixa etária a pessoa se encaixa e se necessário perguntar se tem autorização. Depois, mostrar o resultado
 
 
 6 - E quais situações pode gerar erro?
-resposta:
+resposta: digitar letras no lugar da idade ou responder algo diferente na autorização
 
 
 
